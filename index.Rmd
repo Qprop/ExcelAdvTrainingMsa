@@ -93,6 +93,12 @@ Vocabulary to be used.
   Vertical cells from `A` to Maximum of `XFD`
   
   
+<video src="Images/ex_menu_ribon.mp4" width="320" height="240" controls></video>
+  
+## Day 2 {.tabset .tabset-pills}
+## Day 3 {.tabset .tabset-pills}
+## Day 4 {.tabset .tabset-pills}
+
   
 ## Bonus Materials {.tabset .tabset-pills}
 
