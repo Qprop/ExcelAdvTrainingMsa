@@ -1,0 +1,107 @@
+---
+title: ""
+author: "Brian K"
+date: ""
+output:
+  rmarkdown::html_document:
+  theme: cosmo
+toc: no
+toc_float: no
+code_folding: hide
+code_downlod: yes
+highlight: textmate
+---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# EXCEL ADVANCE TRAINING {.tabset}
+
+## Welcome 
+
+![](Images/ms_excel_firstpage.jpg)
+
+## Introduction 
+
+For this training will be looking at <mark>spreadsheets</mark> using the Microsoft Excel.
+
+Numerous spread sheet application/software are available just to name a few:
+
+  - Microsoft Excel ![](https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg){width=10px}
+  - LibreOffice ![](https://upload.wikimedia.org/wikipedia/commons/0/02/LibreOffice_Logo_Flat.svg){width=100px}
+  - Google sheets ![](https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg){width=10px}
+
+
+Some of the spreadsheets are paid for others a free and open source.
+Access can be both online (using your browers i.e. Internet Explorer/Google Chrome/Mozilla) and offline (As a stand alone software installed on your computer/mobile phone)
+
+
+
+### Assumptions
+
+Have some limited or little knowledge of Microsoft excel functions e.g `=sum(C1,C2)`, though not mandatory it makes it easier to grasp concepts slightly faster.
+
+Though if you remember the simple mathematics which we do everyday of summing and adding up *money* then you are good :).
+
+### Requirements
+
+* Working computer (Laptop/Desktop)
+* Access to internet once in a while to download a few resource materials
+* **Interest and desire** to learn new concepts
+
+
+### Overview of our knowledge
+
+* Operating and maneuvering on a PC/Laptop
+* Basic knowledge of Ms Excel Interface
+
+
+### Teaching guide
+
+* Mixed instructional guide, with the presentation but focused on getting more hard skills
+* Prepare to write Excel formulas
+* Engagements and practice on the fly
+
+
+
+## Day 1 {.tabset .tabset-pills}
+
+
+
+### Navigating Ms Excel
+
+**Key Guiding Concepts**
+
+Vocabulary to be used.
+
+- **Menu Bar**
+  ![](Images/excel_menu.jpg)
+- **Menu Ribbon**
+  ![](Images/ex_ribbon.jpg)
+- **Sheet**
+
+  ![](Images/ex_sheet.jpg){width=150px}
+- **Formula**
+  Inputs placed inside cells to do various calculations
+  
+- **Rows**
+  Horizontal cells from `1` to Maximum of `1048576`
+
+- **Columns**
+  Vertical cells from `A` to Maximum of `XFD`
+  
+  
+  
+## Bonus Materials {.tabset .tabset-pills}
+
+### **Other Concepts**
+
+- Locating formulas
+- Auditing Tools ![](Images/ex_auditingtools.jpg){width=150px}
+- Column/Row References `A:A` / `1:1`
+- 
+
+### **Shortcut CheatSheet**
+
