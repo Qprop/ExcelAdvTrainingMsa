@@ -65,6 +65,10 @@ Though if you remember the simple mathematics which we do everyday of summing an
 * Engagements and practice on the fly
 
 
+### About the trainer
+
+Just me but you can see you can get the details from [qprop](https://qprop.me/about)
+
 
 ## Day 1 {.tabset .tabset-pills}
 
@@ -72,7 +76,9 @@ Though if you remember the simple mathematics which we do everyday of summing an
 
 ### Navigating Ms Excel
 
+
 **Key Guiding Concepts**
+
 
 Vocabulary to be used.
 
@@ -92,11 +98,202 @@ Vocabulary to be used.
 - **Columns**
   Vertical cells from `A` to Maximum of `XFD`
   
+### Menu's Video
   
 <video src="Images/ex_menu_ribon.mp4" width="320" height="240" controls></video>
+
+### Formula
+
+Different option to input formula:
+
+> **Using the menu** : Menu <mark>Formulas</mark> then pick the options menus available
+
+> **Direct formula in cell** : With the cell start with <mark>=</mark> followed with the formula. You have to have an understanding of the formula
+
+**My cardinal rule in excel there is always more than one way to achieve the same result.**
+
+Lets look at example:
+
+
+      How can we sum up different numbers in different cells to get the total
+
+### Importing data
+
+Hallmark of dealing with data is being able to source the data, for purposes of terminology we will be calling this importing data.
+
+There are so many data sources, some we can source `online`, `excel workbooks`, `database files` e.t.c.
+
+> **<mark>Data</mark> Menu** : There ways to import from different sources:
+  - Text/csv (Comma Separated Values)
+  - From web source links (~Requires tabular data online~). We can test this with [here](https://en.wikipedia.org/wiki/Counties_of_Kenya) requires internet
+  - `Get Data` can connect to database systems.
+
+### Exercise Day 1
+
+Download EPL (English Premier League data) [here](https://github.com/Qprop/ExcelAdvTrainingMsa/tree/master/Exercise/Data/English Premier League_09_19) and [original sources](https://datahub.io/sports-data/english-premier-league#resource-english-premier-league_zip) **Requires Internet**
+
+Data content:
+  - 10 separate csv files
+  - Each csv is all the games play from 2009 to 2019
+  - All the columns are exactly the same
   
+Exercise:
+  - Import all the files into 1 excel work book (Use any method you deem fit)
+
 ## Day 2 {.tabset .tabset-pills}
+
+### Logic Functions
+
+#### Introduction
+
+Understanding of logical fundamentals.
+
+Logic here we are talking about conditions, something is true because of something happening. Because of certain biological functions and nature that being the condition you are either `Male` or `Female`. 
+
+Let me take you back to school the difference between having a pass and fail was certain marks. That is if you have anything below `40%` you have failed and anything above that you have passed.
+
+
+#### Conditions 
+
+Comparison:
+
+  - AND
+  - OR
+  - NOT
+  
+  
+Evaluations:
+  
+  - IF
+
+Aggregations:
+  
+  - COUNTIF and its pronouns COUNTIFS
+  - SUMIF and its counterpart SUMIFS
+  - AVERAGEIF and its counterpart AVERAGEIFS
+
+
+### Get our hands dirty
+
+We will use the `_01_SalaryDepart.xlsx` data which can be gotten in the `Data\_01_SalaryDepart.xlsx` folder.
+
+#### Exercise Day 2
+
+    Using the data salary attempt the below practices
+    
+    -   Total salary by Department
+    -   Total salary by Building
+    
+    -   Count of staff by Department
+    -   Count of Staff by Building
+    
+    
+    -   Average Salary of staff by Department
+    -   Average Salary of Staff by Building
+
+
 ## Day 3 {.tabset .tabset-pills}
+
+### Text Functions
+
+#### Introduction
+
+Understanding of text fundamentals.
+
+Text here can be alphabets, words, numbers and other special characters `&!@#*()`.
+
+Normally we are challenged on how to try to get information out cells with text data. 
+
+Example if you are trying to change lowercase values to uppercase values or Proper sentences or words.
+
+-   You want to extract a word. 
+-   Trying to pick the first or last number of characters.
+-   Searching for texts
+-   Splitting texts
+
+
+
+
+#### Text Formulas 
+
+Under the `Formulas >  Text`:
+
+  - LEFT
+  - RIGHT
+  - LEN
+  - MID
+  - PROPER
+  - UPPER
+  - LOWER
+  
+  
+### Get our hands dirty
+
+We will use the `_01_SalaryDepart.xlsx` data which can be gotten in the `Data\_01_SalaryDepart.xlsx` folder.
+
+#### Exercise Day 3
+
+    Using the data salary attempt the below practices
+    
+    -   Convert the Employee name to Lower case
+    -   Convert the Employee name to Upper case
+    -   Convert the Employee name to Proper case
+    
+    -   Split Employee name to First Name and Last Name
+    -   Change the comma (,) value separating the first name and last name with (:)
+
+    -   Play with the CHAR Function what does it do
+
+
+
+### Date Functions
+
+#### Introduction
+
+Date is one of teh most complicated types of data to deal with, there are different ways of presenting date data types.
+
+  `Day-Month-Year` - `17-09-2023`
+  
+  `Month-Day-Year` - `09-17-2023`
+  
+  `Month-Day-Year` - `Sep-17-2023`
+  
+  `Month-Day-Year` - `Sep-17-23`
+  
+  `Year-Month-Day` - `2023-09-17`
+  
+  `Year-Day-Month` - `2023-17-09`
+
+
+
+
+#### Date Formulas 
+
+Under the `Formulas >  DATE`:
+
+  - TODAY
+  - MONTH
+  - DAY
+  - YEAR
+  - NOW
+  - DATEVALUE
+  - TIMEVALUE
+  
+  
+### Get our hands dirty
+
+We will use the `_01_SalaryDepart.xlsx` data which can be gotten in the `Data\_01_SalaryDepart.xlsx` folder.
+
+#### Exercise Day 3
+
+    Using the data salary attempt the below practices
+    
+    -  From 'Hire Date' pick the Year of employment
+    -  From 'Hire Date' pick the Month of employment
+    -  From 'Hire Date' pick the Day of employment
+    -  From 'Hire Date' pick the Weekday of employment
+
+
 ## Day 4 {.tabset .tabset-pills}
 
   
@@ -111,5 +308,43 @@ Vocabulary to be used.
 
 ### **Shortcut CheatSheet**
 
--
--
+
+|ITEM| Short Cut | Description | | 
+|:---:|:---:|:---|---|
+|<mark>BASIC</mark>|**CTRL+C**     | Copy          ||  
+||**CTRL+V**     | Paste         ||
+||**CTRL+F**     | Find/Search         ||
+||**CTRL+H**     | Find & Replace         ||
+||**CTRL+G**     | Go To Special Dialogue         ||
+||**CTRL+ALT+V** | Paste Special ||
+||**CTRL+;** | Current Date ||
+||**CTRL+SHIFT+;** | Current Time ||
+||**CTRL+SPACE** | Select Column ||
+||**SHIFT+SPACE** | Select Row ||
+|<mark>WORKBOOK</mark>||||
+||**CTRL+N** | Open New Workbook ||
+||**F12** | Save as Dialoge box ||
+||**F2** | Enter cell to edit ||
+||**F4** | Repeat previous keyboard action ||
+|<mark>FORMATTNG</mark>||||
+||**CTRL+1** | Formating cell dialogue ||
+||**CTRL+2** | Cell Bold ||
+||**CTRL+3** | Cell Italics ||
+||**CTRL+SHIFT+1** | Formating cell to Number ||
+||**CTRL+SHIFT+2** | Formating cell to Custom ||
+||**CTRL+SHIFT+5** | Formating cell to % ||
+||**CTRL+SHIFT+1** | Formating cell to Number ||
+|<mark>INSERTION/DELETION</mark>||||
+||**CTRL+SHIFT++** | Insert Dialoge box ||
+||**CTRL+-** | Delete Dialoge box ||
+||**CTRL+(** | Hide row ||
+||**CTRL+SHIFT+(** | Unhide row ||
+||**CTRL+)** | Hide column ||
+|<mark>SHEET MANIPULATION</mark>||||
+||**CTRL+A** | Select all data ||
+||**CTRL+.** | Move to the corners of each selected array ||
+
+
+
+
+
