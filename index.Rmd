@@ -1,6 +1,6 @@
 ---
 title: ""
-author: "Brian K"
+author: ""
 date: ""
 output:
   rmarkdown::html_document:
@@ -125,7 +125,7 @@ There are so many data sources, some we can source `online`, `excel workbooks`, 
 
 > **<mark>Data</mark> Menu** : There ways to import from different sources:
   - Text/csv (Comma Separated Values)
-  - From web source links (~Requires tabular data online~). We can test this with [here](https://en.wikipedia.org/wiki/Counties_of_Kenya) requires internet
+  - From web source links (*Requires tabular data online*). We can test this with [here](https://en.wikipedia.org/wiki/Counties_of_Kenya) requires internet
   - `Get Data` can connect to database systems.
 
 ### Exercise Day 1
@@ -177,7 +177,7 @@ Aggregations:
 
 We will use the `_01_SalaryDepart.xlsx` data which can be gotten in the `Data\_01_SalaryDepart.xlsx` folder.
 
-#### Exercise Day 2
+#### Get our hands dirty
 
     Using the data salary attempt the below practices
     
@@ -231,8 +231,6 @@ Under the `Formulas >  Text`:
 
 We will use the `_01_SalaryDepart.xlsx` data which can be gotten in the `Data\_01_SalaryDepart.xlsx` folder.
 
-#### Exercise Day 3
-
     Using the data salary attempt the below practices
     
     -   Convert the Employee name to Lower case
@@ -284,7 +282,6 @@ Under the `Formulas >  DATE`:
 
 We will use the `_01_SalaryDepart.xlsx` data which can be gotten in the `Data\_01_SalaryDepart.xlsx` folder.
 
-#### Exercise Day 3
 
     Using the data salary attempt the below practices
     
@@ -295,6 +292,65 @@ We will use the `_01_SalaryDepart.xlsx` data which can be gotten in the `Data\_0
 
 
 ## Day 4 {.tabset .tabset-pills}
+
+
+### Pivot tables
+
+Data in its self in its raw form might not have meaning, but aggregating it to small manageable chunks creates knowledgeable insights. 
+
+100's of rows and columns doesn't make sense but an aggregation of the values to sum, count's, means and statistical values converts them to valuable information.
+
+Here is where pivot tables comes in handy.
+
+From `Insert >  PivotTables`, you can create pivot tables.
+
+  - Create pivot table
+  - Calculate values
+  - Generate totals and subtotals
+  - Add slicers
+  
+### Get our hands dirty
+
+    Using the data salary attempt the below practices
+    
+    -   Total salary by Department
+    -   Total salary by Building
+    
+    -   Count of staff by Department
+    -   Count of Staff by Building
+    
+    
+    -   Average Salary of staff by Department
+    -   Average Salary of Staff by Building
+    
+
+### Power Query
+
+Introduced to help faster execution and overcome limitations present in excel, that is number of rows and columns. 
+
+Power query models are limitless with ability to do data manipulations and transformations.
+
+Power tools were integrated and include Power Query and supporting Power Pivots.
+
+From `Data >  Get Data`, launches the power query editor.
+
+  - Create power models
+  - Familiarization of 
+  - Generate totals and subtotals
+  - Add slicers
+  
+### Get our hands dirty
+
+    Using the data salary attempt the below practices
+    
+    -   Load the salary data
+    -  From 'Hire Date' pick the Year of employment
+    -  From 'Hire Date' pick the Month of employment
+    -  From 'Hire Date' pick the Day of employment
+    -  From 'Hire Date' pick the Weekday of employment
+    -  Split 'Employee Name' to column with First Name and Last Name
+    -  Change First Name and Last Name to Capital cases
+    -  Calculate the years of service since time employee got employed.
 
   
 ## Bonus Materials {.tabset .tabset-pills}
